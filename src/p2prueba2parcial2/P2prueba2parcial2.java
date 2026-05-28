@@ -167,7 +167,7 @@ public class P2prueba2parcial2 extends JFrame {
         File dir=new File(path.trim());
         buscarArchivos(dir, busq.toLowerCase(),resultados);
         
-        if(resultados.toString().equals("*****BÚSQUEDA DE ARCHIVOS: \""+busq+"\"*****\n\n")){
+        if(resultados.toString().equals("*****BÚSQUEDA DE ARCHIVOS: \""+busq+"\" *****\n\n")){
             resultados.append("No se encontraron archivos que coinciden con la búsqueda.");
         }
         
